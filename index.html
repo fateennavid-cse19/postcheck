@@ -9,7 +9,7 @@
     <div class="navbar">
         <h2>PostCheck Authenticator</h2>
     </div>
-    <ol><p>How to check the authenticity of your posts using the following links:</p>
+    <ol><p><b>How to generate authentic digital signatures of your posts using the following links:</b></p>
 
         <li>Go to this website for generating a public key and a private key</li>
             <ul>
@@ -22,6 +22,18 @@
                 <li><a href="https://emn178.github.io/online-tools/sha256.html">SHA-256 Output Generator</a></li>
             </ul>
         <img src="step2.png" alt="Step 2">
+        <li>Now copy the output and go the <a href="https://www.devglan.com/online-tools/rsa-encryption-decryption">rsa-encryption-decryption</a> website. Input the SHA output into this dialog box.</li>
+        <img src ="step3.png" alt="Step 3">
+        <li>Now input the private key generated and saved in the next dialog boxes. After which press "Encrypt"</li>
+        <img src="step4.png" alt="Step 4">
+        <li>Now you got the Digital Signature. After this, add these 3 documents to the comment section of the post. (You can also add this in the main post too)
+            <ul>
+                <li>Type of Hash done (SHA-256)</li>
+                <li>Public Key (DO NOT SHARE THE PRIVATE KEY)</li>
+                <li>Generated Digital Signature</li>
+            </ul>
+        </li>
+
     </ol>
     
 </body>
