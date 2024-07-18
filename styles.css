@@ -35,3 +35,11 @@ body {
     background-color: #ddd;
     color: black; /* Change hover text color to black */
 }
+
+/* CSS */
+img {
+    width: 100%; /* Adjust the percentage to fit the container */
+    max-width: 500px; /* Limit the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
