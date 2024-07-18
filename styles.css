@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    padding-top: 90px; /* Adjust this value if your navbar height is different */
 }
 
 /* Navbar styling */
@@ -26,15 +27,4 @@ body {
 .navbar a:hover {
     background-color: #ddd;
     color: black;
-}
-
-/* Content styling */
-.content {
-    margin-left: 250px; /* Same width as the sidebar */
-    padding: 20px;
-    box-sizing: border-box;
-    margin-top: 50px; /* Adjusted for navbar height */
-    flex-grow: 1;
-    position: relative;
-    z-index: 0;
 }
