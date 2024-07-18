@@ -16,6 +16,12 @@ body {
     z-index: 1;
 }
 
+.navbar h2 {
+    color: white; /* Navbar text color is white */
+    margin: 0;
+    padding: 14px 20px;
+}
+
 .navbar a {
     float: left;
     display: block;
